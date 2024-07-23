@@ -1,9 +1,10 @@
 {
-  "compilerOptions": {
-    "baseUrl": ".",
-    "paths": {
-      "~/*": ["./app/*"]
-    }
-  },
-  "include": ["app", ".storybook/story-container.jsx"]
+    "compilerOptions": {
+      "baseUrl": ".",
+      "paths": {
+        "~/*": ["./app/*"]
+      }
+    },
+    "include": ["app", ".storybook/story-container.jsx"]
 }
+  

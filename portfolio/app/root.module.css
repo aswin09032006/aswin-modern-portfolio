@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 @layer layout {
   .container {
     width: 100%;
     position: relative;
     transition: opacity 0.4s var(--bezierFastoutSlowin);
+    font-family: "DM Sans", sans-serif;
 
     &[data-loading='true'] {
       opacity: 0;
