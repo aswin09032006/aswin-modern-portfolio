@@ -1,19 +1,5 @@
 {
   "version": 2,
-  "builds": [
-    {
-      "src": "remix.config.js",
-      "use": "@vercel/remix"
-    },
-    {
-      "src": "package.json",
-      "use": "@vercel/vite"
-    },
-    {
-      "src": "build/server/index.js",
-      "use": "@vercel/node"
-    }
-  ],
   "routes": [
     {
       "src": "/(.*)",
