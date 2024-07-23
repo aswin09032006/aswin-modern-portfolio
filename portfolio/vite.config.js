@@ -16,6 +16,7 @@ export default defineConfig({
     outDir: 'dist', // Ensure the output directory is `dist`
     assetsInlineLimit: 1024,
     sourcemap: false, // Optionally, you can disable source maps in production
+    chunkSizeWarningLimit: 1000, // Increase the limit to 1000 kB
   },
   server: {
     port: 7777,
