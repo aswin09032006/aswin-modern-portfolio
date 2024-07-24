@@ -1,18 +1,11 @@
 {
-  "version": 2,
   "builds": [
     {
       "src": "remix.config.js",
-      "use": "@remix-run/vercel"
+      "use": "@vercel/remix"
     }
   ],
   "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/"
-    }
-  ],
-  "env": {
-    "NODE_ENV": "production"
-  }
+    { "src": "/(.*)", "dest": "/" }
+  ]
 }
